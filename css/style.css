@@ -1,0 +1,36 @@
+:root {
+    --fondo-titulo: #1e5631;
+    --texto-titulo: #1e5631;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6fbf0;
+    text-align: center;
+}
+
+h1 {
+    background-color: var(--fondo-titulo);
+    color: var(--texto-titulo);
+    padding: 20px;
+}
+
+.boton {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.pie {
+    color: gray;
+}
